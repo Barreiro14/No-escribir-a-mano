@@ -14,7 +14,7 @@ def cambio(f):
     j = 0
     lines = F.readlines()
     for line in lines:
-        while i < len(F[0]):
-            while j < len(F):
+        while i < len(F):
+            while j < len(F[j]):
                 if F[i][j] == "a":
-                    #cambiar por la imagen a
+                    return 
