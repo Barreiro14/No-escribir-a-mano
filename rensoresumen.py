@@ -95,7 +95,17 @@ def cambio(f):
     j = 0
     lines = F.readlines()
     for line in lines:
+        line = lines.split(" ")
+        document = Image.new('RGB',(8*len(F[0]), 16*len(F)), (250,250,250))
         while i < len(F):
             while j < len(F[j]):
                 if F[i][j] == "a":
-                    return 
+                    document.paste(ma,(i,j))
+                if F[i][j] == "b":
+                    document.paste(mb,(i,j))
+                if F[i][j] == "c":
+                    document.paste(mc,(i,j))
+                if F[i][j] == "d":
+                    document.paste(md,(i,j)) 
+                if F[i][j] == "e":
+                    document.paste(me,(i,j))    
