@@ -108,4 +108,83 @@ def cambio(f):
                 if F[i][j] == "d":
                     document.paste(md,(i,j)) 
                 if F[i][j] == "e":
-                    document.paste(me,(i,j))    
+                    document.paste(me,(i,j)) 
+                if F[i][j] == "f":
+                    document.paste(mf,(i,j))  
+                if F[i][j] == "g":
+                    document.paste(mg,(i,j))
+                if F[i][j] == "h":
+                    document.paste(mh,(i,j))    
+                if F[i][j] == "i":
+                    document.paste(mi,(i,j))
+                if F[i][j] == "j":
+                    document.paste(mj,(i,j)) 
+                if F[i][j] == "k":
+                    document.paste(mk,(i,j)) 
+                if F[i][j] == "l":
+                    document.paste(ml,(i,j)) 
+                if F[i][j] == "m":
+                    document.paste(mm,(i,j)) 
+                if F[i][j] == "n":
+                    document.paste(mn,(i,j)) 
+                if F[i][j] == "o":
+                    document.paste(mo,(i,j)) 
+                if F[i][j] == "p":
+                    document.paste(mp,(i,j)) 
+                if F[i][j] == "q":
+                    document.paste(mq,(i,j)) 
+                if F[i][j] == "r":
+                    document.paste(mr,(i,j)) 
+                if F[i][j] == "s":
+                    document.paste(ms,(i,j))
+                if F[i][j] == "t":
+                    document.paste(mt,(i,j))  
+                if F[i][j] == "u":
+                    document.paste(mu,(i,j)) 
+                if F[i][j] == "v":
+                    document.paste(mv,(i,j))
+                if F[i][j] == "w":
+                    document.paste(mw,(i,j))  
+                if F[i][j] == "x":
+                    document.paste(mx,(i,j)) 
+                if F[i][j] == "y":
+                    document.paste(my,(i,j)) 
+                if F[i][j] == "z":
+                    document.paste(mz,(i,j)) 
+                if F[i][j] == "0":
+                    document.paste(m0,(i,j)) 
+                if F[i][j] == "1":
+                    document.paste(m1,(i,j)) 
+                if F[i][j] == "2":
+                    document.paste(m2,(i,j)) 
+                if F[i][j] == "3":
+                    document.paste(m3,(i,j)) 
+                if F[i][j] == "4":
+                    document.paste(m4,(i,j)) 
+                if F[i][j] == "5":
+                    document.paste(m5,(i,j)) 
+                if F[i][j] == "6":
+                    document.paste(m6,(i,j)) 
+                if F[i][j] == "7":
+                    document.paste(m7,(i,j)) 
+                if F[i][j] == "8":
+                    document.paste(m8,(i,j)) 
+                if F[i][j] == "9":
+                    document.paste(m9,(i,j)) 
+                if F[i][j] == ",":
+                    document.paste(mcoma,(i,j)) 
+                if F[i][j] == " ":
+                    document.paste(mblank,(i,j)) 
+                if F[i][j] == ".":
+                    document.paste(mperiod,(i,j)) 
+                if F[i][j] == ":":
+                    document.paste(mdoubledot,(i,j)) 
+                if F[i][j] == ";":
+                    document.paste(msemicolon,(i,j)) 
+
+            document.save()
+
+
+f = input()
+cambio(f)
+                
