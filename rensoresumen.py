@@ -10,7 +10,7 @@ m6 = Image.open("6.jpeg")
 m7 = Image.open("7.jpeg")
 m8 = Image.open("8.jpeg")
 m9 = Image.open("9.jpeg")
-ma = Image.open("a.jpeg") #nombre de la imagen de la letra a
+ma = Image.open("a.jpeg") 
 mb = Image.open("b.jpeg")
 mc = Image.open("c.jpeg")
 md = Image.open("d.jpeg")
@@ -42,7 +42,7 @@ mperiod = Image.open("period.jpeg")
 mdoubledot = Image.open("doubledot.jpeg")
 msemicolon = Image.open("semicolon.jpeg")
 
-#TODO: crear las imagenes para cada letra.
+
 #TODO: enable on production
 #mA = ma.resize((n, m)) #letra mayuscula
 m0 = m0.resize((8, 16)) #cambiar el tamano de la letra minuscula
@@ -186,5 +186,5 @@ def cambio(f):
 
 
 f = input()
-cambio(f)
+cambio(f) 
                 
